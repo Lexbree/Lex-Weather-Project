@@ -27,7 +27,7 @@ let days = [
   "Sunday",
 ];
 let day = days[now.getDay()];
-h2.innerHTML = `${day} and ${hours}:${minutes}`;
+h2.innerHTML = `${day} ${hours}:${minutes}`;
 
 // feature 2
 function search(event) {
