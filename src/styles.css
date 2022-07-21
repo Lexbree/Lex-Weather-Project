@@ -12,7 +12,11 @@ h2 {
 h3 {
   text-align: center;
   font-family: "Comfortaa", cursive;
-  padding-bottom: 20px;
+  padding-bottom: 0px;
+}
+h4 {
+  text-align: center;
+  padding-top: 0px;
 }
 
 body {
@@ -44,9 +48,10 @@ form {
 .current-temp {
   color: rgb(87, 17, 87);
   font-weight: 900;
+  font-size: 40px;
 }
 
 .temp-F-C {
   font-size: 15px;
-  vertical-align: text-top;
+  vertical-align: 100%;
 }

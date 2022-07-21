@@ -47,8 +47,8 @@ form.addEventListener("submit", search);
 
 function showTemp(response) {
   let temperature = Math.round(response.data.main.temp);
-  let h3 = document.querySelector("h3");
-  h3.innerHTML = `${temperature}°C`;
+  let h4 = document.querySelector("h4");
+  h4.innerHTML = `${temperature}°C`;
 }
 
 // feature 3
