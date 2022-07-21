@@ -40,3 +40,13 @@ form {
   border-radius: 10px;
   border-color: black 20px;
 }
+
+.current-temp {
+  color: rgb(87, 17, 87);
+  font-weight: 900;
+}
+
+.temp-F-C {
+  font-size: 15px;
+  vertical-align: text-top;
+}
